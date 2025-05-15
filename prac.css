@@ -1,0 +1,39 @@
+*{padding: 0;
+margin: 0;}
+
+.HEADER{background-color: blue;
+       display: grid;
+       align-items: center;
+
+}
+
+.gridcontainer{
+background-color: bisque;
+display: grid;
+grid-template-columns: 1fr 1fr;
+row-gap: 50px;
+column-gap: 50px;
+align-items: center;
+width: 1000px;
+}
+
+.gridcontainer2{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       height: 300px;
+
+}
+
+.overall{
+background-color: blueviolet;
+display: flex;
+flex-direction: column;
+}
+
+.sidebar{
+background-color: brown;
+left: 0;
+top: 0;
+bottom: 0;
+width: 50px;
+}
