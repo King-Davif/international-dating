@@ -14,7 +14,7 @@ grid-template-columns: 1fr 1fr;
 row-gap: 50px;
 column-gap: 50px;
 align-items: center;
-width: 1000px;
+width: 100%;
 }
 
 .gridcontainer2{
